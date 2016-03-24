@@ -48,7 +48,7 @@ a{
 a:link{
 	color: white;
 }
-#math li a:hover, #science li a:hover, #socialstudies li a:hover, #literacy li a:hover{
+.math li a:hover, .science li a:hover, .socialstudies li a:hover, .literacy li a:hover{
 	color: white;
 }
 nav a:hover{
@@ -85,54 +85,54 @@ div[class^="visible"]{
 .visible-xs, .visible-sm, .visible-md{
 	padding: 5%;
 }
-#math h3{
+.math h3{
 	background-image: url("math.gif");
 	background-size: 25%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
-#literacy h3{
+.literacy h3{
 	background-image: url("bookbullet.png");
 	background-size: 25%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
-#socialstudies h3{
+.socialstudies h3{
 	background-image: url("globe.png");
 	background-size: 22%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
-#science h3{
+.science h3{
 	background-image: url("weather.png");
 	background-size: 27%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.visible-md #science h3, .visible-lg #science h3{
+.visible-md .science h3, .visible-lg .science h3{
 	background-size: 30%;
 }
-.visible-md #literacy h3, .visible-lg #literacy h3{
+.visible-md .literacy h3, .visible-lg .literacy h3{
 	background-size: 30%;
 }
-.visible-md #socialstudies h3, .visible-lg #socialstudies h3{
+.visible-md .socialstudies h3, .visible-lg .socialstudies h3{
 	background-size: 30%;
 }
-.visible-md #math h3, .visible-lg #math h3{
+.visible-md .math h3, .visible-lg .math h3{
 	background-size: 30%;
 }
-#math, #literacy, #socialstudies, #science{
+.math, .literacy, .socialstudies, .science{
 	padding: 3%;
 }
-#math li, #literacy li, #socialstudies li, #science li{
+.math li, .literacy li, .socialstudies li, .science li{
 	font-size: 110%;
 	color: black;
 }
-#math a, #literacy a, #socialstudies a, #science a{
+.math a, .literacy a, .socialstudies a, .science a{
 	font-size: 200%;
 	color: black;
 }
-#math h3, #literacy h3, #socialstudies h3, #science h3{
+.math h3, .literacy h3, .socialstudies h3, .science h3{
 	font-size: 350%;
 	color: black;
 	font-weight: bold;
@@ -142,14 +142,14 @@ div[class^="visible"]{
 ol ul{
 	padding: 1%;
 }
-#science ol, #math ol, #socialstudies ol, #literacy ol{
+.science ol, .math ol, .socialstudies ol, .literacy ol{
 	list-style-type: disc;
 }
-#buttons{
+.buttons{
 	color: black;
 	font-size: 200%;
 }
-#buttons a{
+.buttons a{
 	font-size: 100%;
 }
 #halloween img{
@@ -270,10 +270,10 @@ footer a:hover{
 	#pic1, #pic2, #pic3, #pic4, #pic5{
 		padding-bottom: 3%;
 	}
-	#math h3, #literacy h3{
+	.math h3, .literacy h3{
 		background-size: 25%;
 	}
-	#socialstudies h3{
+	.socialstudies h3{
 		background-size: 20%;
 	}
 	#schoolinfo h3{
