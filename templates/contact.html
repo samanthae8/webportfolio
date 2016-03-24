@@ -30,18 +30,17 @@
 			<span class="glyphicon glyphicon-phone"></span> Phone: (847)-459-0022 with extension 1209<br/>
 			<span class="glyphicon glyphicon-envelope"></span> Email: jholzhauer@kcsd96.org<br/>
 	<form name="myform" action="contactinfo.html" method="post">
-		<p>
-		Name: <br/><input type="text" name="name"><br/>
-		Email Address: <br/><input type="text" name="email"><br/>
-		Date: <br/><input type="date" name="dateInput"><br/>
-		Category: <br/><select name="file">
+		<p>Name: <br/><input type="text" name="name" id="sendername"><br/>
+		Email Address: <br/><input type="email" name="email" id="emailaddress"><br/>
+		Date: <br/><input type="date" name="dateInput" id="date"><br/>
+		Category: <br/><select name="file" id="file">
 		<option value="Comment">Comment(s)</option>
 		<option value="Question">Question(s)</option>
 		<option value="Concern">Concern(s)</option>
 		</select><br/>
-		Comments/Questions/Concerns:<br/> <textarea name="comment"> </textarea>
+		Comments/Questions/Concerns:<br/> <textarea name="comment" id="comment"> </textarea>
 		<br>
-		<input type="submit" value=" Submit "><br/></p>
+		<input type="submit" value=" Submit " id="submit"><br/></p>
 	</form>
 	</section><br/>
 

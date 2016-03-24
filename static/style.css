@@ -37,6 +37,10 @@ body{
 	background-color: #31A434;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
+/*.wrapper{
+	min-height: 100%;
+	margin: 0 auto -155px;
+}*/
 a{
 	text-decoration: none;
 	color: black;
@@ -72,9 +76,6 @@ nav a:hover{
 #class img{
 	border: 8px black solid;
 	margin-bottom: 4%;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
 }
 div[class^="visible"]{
 	border: 8px solid white;
@@ -243,6 +244,9 @@ footer{
 	padding: 1%;
 	margin-top: 3%;
 }
+/*.footer, .push{
+	height: 155px;
+}*/
 footer a{
 	text-decoration: underline;
 }
@@ -279,9 +283,6 @@ footer a:hover{
 		background-size: 20%;
 		padding-top: 6%;
 	}
-	#click{
-		display: none;
-	}
 }
 
 @media only screen and (min-width: 700px){
@@ -299,7 +300,10 @@ footer a:hover{
 @media only screen and (min-width: 1200px){
 	#class img{
 		margin-right: 5%;
-		margin-top: 19%;
+		margin-top: 6%;
+		position: fixed;
+		width: 30%;
+		z-index: -1;
 	}
 	#button5{
 		display: none;
