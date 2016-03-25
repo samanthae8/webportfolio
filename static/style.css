@@ -13,9 +13,15 @@ h2{
 	font-style: italic;
 	opacity: 0.8;
 }
+a:link{
+	color: white;
+}
 nav{
 	font-size: 220%;
 	text-align: center;
+	color: black;
+}
+nav a:link{
 	color: black;
 }
 #home-1 .home, #kidcenter-1 .kidcenter, #photogallery-1 .photogallery, #contact-1 .contact{
@@ -45,9 +51,6 @@ body{
 a{
 	text-decoration: none;
 	color: black;
-}
-a:link{
-	color: white;
 }
 .math li a:hover, .science li a:hover, .socialstudies li a:hover, .literacy li a:hover{
 	color: white;
@@ -259,6 +262,10 @@ footer a:hover{
 }
 #wildcat img{
 	padding: 1%;
+}
+
+#space {
+	margin-top: 10px;
 }
 
 @media only screen and (max-width: 700px){
