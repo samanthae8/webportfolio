@@ -44,10 +44,6 @@ body{
 	background-color: #31A434;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
-/*.wrapper{
-	min-height: 100%;
-	margin: 0 auto -155px;
-}*/
 a{
 	text-decoration: none;
 	color: black;
@@ -264,9 +260,6 @@ footer{
 	padding: 1%;
 	margin-top: 3%;
 }
-/*.footer, .push{
-	height: 155px;
-}*/
 footer a{
 	text-decoration: underline;
 }
@@ -321,7 +314,7 @@ footer a:hover{
 	}
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 990px){
 	#class img{
 		margin-right: 5%;
 		margin-top: 6%;
