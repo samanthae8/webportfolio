@@ -1,3 +1,6 @@
+
+/*home page */
+
 header{
 	background-image: url("chalkboardlarger.jpeg");
 	color: white;
@@ -50,9 +53,6 @@ a{
 	text-decoration: none;
 	color: black;
 }
-.math li a:hover, .science li a:hover, .socialstudies li a:hover, .literacy li a:hover{
-	color: white;
-}
 nav a:hover{
 	color: #1D3BAC;
 }
@@ -79,6 +79,9 @@ nav a:hover{
 	border: 8px black solid;
 	margin-bottom: 4%;
 }
+
+/*kid center page*/
+
 div[class^="visible"]{
 	border: 8px solid white;
 	padding: 5.5%;
@@ -86,6 +89,9 @@ div[class^="visible"]{
 }
 .visible-xs, .visible-sm, .visible-md{
 	padding: 5%;
+}
+.math li a:hover, .science li a:hover, .socialstudies li a:hover, .literacy li a:hover{
+	color: white;
 }
 .math h3{
 	background-image: url("math.gif");
@@ -170,8 +176,10 @@ ol ul{
     width: 100%;
     height: 100%;
 }
+
+/*photo gallery page*/
+
 #halloween img{
-/*	padding: 5%;*/
 	border: 7px black solid;
 }
 #halloween h3{
@@ -181,7 +189,13 @@ ol ul{
 }
 #halloween p{
 	color: black;
+}
+.click{
 	font-size: 200%;
+	font-style: italic;
+}
+#pic1, #pic2, #pic3, #pic4, #pic5{
+	font-size: 160%;
 }
 #halloween{
 	padding: 1%;
@@ -222,6 +236,9 @@ ol ul{
 	background-color: #F50938;
 	border-color: black;
 }
+
+/*contact page*/
+
 #teacherinfo h3, #schoolinfo h3{
 	font-size: 300%;
 	color: black;
@@ -251,6 +268,9 @@ ol ul{
 .italicize p{
 	font-style: italic;
 }
+
+/*footer*/
+
 footer{
 	text-align: center;
 	font-size: 140%;
@@ -279,6 +299,8 @@ footer a:hover{
 	margin-top: 10px;
 }
 
+/*media queries*/
+
 @media only screen and (max-width: 700px){
 	.carousel-caption{
 		display: none;
@@ -288,6 +310,7 @@ footer a:hover{
 	}
 	#pic1, #pic2, #pic3, #pic4, #pic5{
 		padding-bottom: 3%;
+		font-size: 200%;
 	}
 	.math h3, .literacy h3{
 		background-size: 25%;
@@ -301,6 +324,9 @@ footer a:hover{
 	#teacherinfo h3{
 		background-size: 20%;
 		padding-top: 6%;
+	}
+	.click{
+		font-size: 220%;
 	}
 }
 
