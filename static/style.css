@@ -20,13 +20,15 @@ nav{
 	font-size: 220%;
 	text-align: center;
 	color: black;
+	font-weight: bold;
+	font-style: italic;
 }
 nav a:link{
 	color: black;
 }
 #home-1 .home, #kidcenter-1 .kidcenter, #photogallery-1 .photogallery, #contact-1 .contact{
 	background: #B6D4FA;
-}
+} /*identifying the current page*/
 h3{
 	font-size: 200%;
 	text-align: center;
