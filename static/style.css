@@ -31,6 +31,7 @@ nav a:link{
 }
 #home-1 .home, #kidcenter-1 .kidcenter, #photogallery-1 .photogallery, #contact-1 .contact{
 	background: #B6D4FA;
+	text-transform: uppercase;
 } /*identifying the current page*/
 h3{
 	font-size: 200%;
@@ -47,7 +48,7 @@ body, html {
 body{
 	margin: 1%;
 	background-color: #31A434;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", Arial, sans-serif;
 }
 a{
 	text-decoration: none;
@@ -82,6 +83,22 @@ nav a:hover{
 
 /*kid center page*/
 
+	.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 div[class^="visible"]{
 	border: 8px solid white;
 	padding: 5.5%;
@@ -159,22 +176,6 @@ ol ul{
 }
 .buttons a{
 	font-size: 100%;
-}
-.responsive-iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-.responsive-iframe-container iframe,   
-.vresponsive-iframe-container object,  
-.vresponsive-iframe-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 /*photo gallery page*/
@@ -273,7 +274,6 @@ ol ul{
 
 footer{
 	text-align: center;
-	font-size: 140%;
 	font-style: italic;
 	color: white;
 	font-weight: bold;
@@ -281,6 +281,9 @@ footer{
 	background: #1A1EC1;
 	padding: 1%;
 	margin-top: 3%;
+}
+.footer p{
+	font-size: 120%;
 }
 footer a{
 	text-decoration: underline;
